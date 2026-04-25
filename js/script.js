@@ -87,10 +87,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Define paths for images that should swap based on theme
     const darkImage = 'images/mazen.jpeg';
     const lightImage = 'images/Mazen_White.jpeg';
-    const eeDarkImage = 'images/EEBlack.png';
-    const eeLightImage = 'images/EEWhite.png';
-    const ccDarkImage = 'images/CCDark.png';
-    const ccLightImage = 'images/CCWhite.png';
+    // Use White logos for dark theme and Black logos for light theme
+    const eeDarkImage = 'images/EEWhite.png';
+    const eeLightImage = 'images/EEBlack.png';
+    const ccDarkImage = 'images/CCWhite.png';
+    const ccLightImage = 'images/CCBlack.png';
 
     // Apply the saved theme immediately on page load
     document.documentElement.setAttribute('data-theme', savedTheme);
