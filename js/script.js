@@ -88,10 +88,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const darkImage = 'images/mazen.jpeg';
     const lightImage = 'images/Mazen_White.jpeg';
     // Use White logos for dark theme and Black logos for light theme
-    const eeDarkImage = 'images/EEWhite.png';
-    const eeLightImage = 'images/EEBlack.png';
-    const ccDarkImage = 'images/CCWhite.png';
-    const ccLightImage = 'images/CCBlack.png';
+    const eeDarkImage = 'images/EEBlack.png';
+    const eeLightImage = 'images/EEWhite.png';
+    const ccDarkImage = 'images/CCBlack.png';
+    const ccLightImage = 'images/CCWhite.png';
 
     // Apply the saved theme immediately on page load
     document.documentElement.setAttribute('data-theme', savedTheme);
